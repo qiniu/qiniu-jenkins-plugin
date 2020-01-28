@@ -9,7 +9,7 @@
     </parent>
     <groupId>io.jenkins.plugins</groupId>
     <artifactId>qiniu</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
+    <version>1.0.0</version>
     <packaging>hpi</packaging>
     <properties>
         <jenkins.version>2.121.3</jenkins.version>
@@ -27,7 +27,8 @@
         <connection>scm:git:git://github.com/qiniu/${project.artifactId}-jenkins-plugin.git</connection>
         <developerConnection>scm:git:git@github.com:qiniu/${project.artifactId}-jenkins-plugin.git</developerConnection>
         <url>https://github.com/qiniu/${project.artifactId}-jenkins-plugin</url>
-    </scm>
+      <tag>qiniu-1.0.0</tag>
+  </scm>
     <repositories>
         <repository>
             <id>repo.jenkins-ci.org</id>
